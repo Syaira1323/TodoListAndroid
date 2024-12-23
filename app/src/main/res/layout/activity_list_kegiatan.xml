@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="95dp"
+    android:padding="16dp"
+    android:background="@drawable/latar1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="392dp"
+        android:layout_height="39dp"
+        android:text="List Kegiatan"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="396dp"
+        android:layout_height="69dp"
+        android:hint="Kegiatan" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="396dp"
+        android:layout_height="71dp"
+        android:text="Save" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground" />
+</LinearLayout>
